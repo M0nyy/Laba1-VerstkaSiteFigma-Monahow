@@ -321,7 +321,7 @@ nav a {
 }
 
   .contact-section {
-  height: 550px;
+  height: 500px;
   position: absolute;
   top: 1900px;
   left: 0px;
@@ -384,7 +384,7 @@ nav a {
 }
 
 .footer {
-  height: 79px;
+  height: 65px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -399,5 +399,18 @@ nav a {
     position: relative;
     margin: 0 auto;
 }
+
+.footer-icon {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.footer-icon:nth-child(1) { left: 600px; top: 15px; }
+.footer-icon:nth-child(2) { left: 680px; top: 15px; }
+.footer-icon:nth-child(3) { left: 760px; top: 15px; }
+.footer-icon:nth-child(4) { left: 840px; top: 15px; }
+
 
 </style>
