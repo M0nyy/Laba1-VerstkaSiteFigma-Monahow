@@ -46,17 +46,17 @@
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center; /* Центрируем элементы меню по горизонтали */
-  padding: 0; /* Убираем стандартный отступ у списка */
-  margin: 0; /* Убираем стандартный отступ у списка */
+  justify-content: center;
+  padding: 0;
+  margin: 0;
   width: 100%;
-  gap: 100px; /* Расстояние между пунктами меню */
+  gap: 100px;
 }
 
 nav ul li {
-  display: flex; /* Включаем flexbox для элементов списка, чтобы правильно выровнять ссылки */
-  justify-content: center; /* Центрируем содержимое элементов списка по горизонтали */
-  align-items: center; /* Центрируем содержимое элементов списка по вертикали */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -66,9 +66,9 @@ nav a {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  line-height: 24px; /* Может быть настроено для изменения высоты строки, если необходимо */
-  text-align: center; /* Гарантирует, что текст ссылки выровнен по центру */
-  padding: 10px 20px; /* Добавляем небольшой отступ вокруг текста для улучшения визуализации и кликабельности */
+  line-height: 24px;
+  text-align: center;
+  padding: 10px 20px;
 }
 
 .search, .login {
@@ -143,40 +143,40 @@ nav a {
 }
 
 .photo {
-  width: 215px; /* Ширина меньше на 40px чтобы учесть padding */
+  width: 215px;
   height: 180px;
-  background-color: #0B1919; /* Темно-синий цвет фона для блока с фотографией */
-  margin-bottom: 20px; /* Отступ снизу для следующего содержимого внутри .sub-block */
-  display: flex; /* Для выравнивания содержимого */
-  justify-content: center; /* Центрирование содержимого по горизонтали */
-  align-items: center; /* Центрирование содержимого по вертикали */
+  background-color: #0B1919;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo img {
-  max-width: 100%; /* Чтобы изображение не выходило за рамки .photo */
-  max-height: 100%; /* Чтобы изображение не выходило за рамки .photo */
-  margin-top: 20px; /* Отодвигаем фото чуть ниже внутри .photo */
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
 }
 
 .sub-block h3 {
-  font-size: 20px; /* Размер шрифта заголовка */
-  margin-bottom: 10px; /* Отступ снизу от заголовка */
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .sub-block p {
-  font-size: 14px; /* Размер шрифта описания */
-  margin-bottom: 20px; /* Отступ снизу от описания */
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .button {
-  padding: 10px 20px; /* Внутренние отступы кнопки */
-  border: 1px solid #BAE249; /* Желтая рамка кнопки */
-  color: #BAE249; /* Желтый цвет текста кнопки */
-  text-transform: uppercase; /* Все буквы заглавные */
-  font-weight: bold; /* Жирный шрифт */
-  text-align: center; /* Выравнивание текста по центру */
-  cursor: pointer; /* Курсор в виде указателя */
-  margin-top: auto; /* Автоматический отступ сверху, чтобы прижать кнопку к низу */
+  padding: 10px 20px;
+  border: 1px solid #BAE249;
+  color: #BAE249;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin-top: auto;
 }
 
   .navigation {
@@ -229,14 +229,14 @@ nav a {
   top: 0;
   left: 0;
   color: #FFFFFF;
-  font-size: 24px; /* Размер шрифта может быть изменен по вашему усмотрению */
+  font-size: 24px;
 }
 
 .inner-block-1 {
   width: 825px;
   height: 493px;
   position: absolute;
-  top: 78px; /* 1300 - 1222 (так как позиционирование относительно new-main-block) */
+  top: 78px;
   left: 0;
   background-color: #0B1919;
 }
@@ -245,28 +245,28 @@ nav a {
   width: 255px;
   height: 493px;
   position: absolute;
-  top: 78px; /* Отступ от верхнего края родительского блока */
-  left: 855px; /* Отступ от левого края родительского блока */
+  top: 78px;
+  left: 855px;
   background-color: #BAE249;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Распределяем содержимое по вертикали */
-  padding: 20px; /* Внутренний отступ со всех сторон */
-  box-sizing: border-box; /* Учитываем padding и border в общую ширину и высоту */
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .inner-block-2 h2 {
-  font-size: 24px; /* Размер шрифта заголовка */
-  font-weight: bold; /* Жирность шрифта */
-  color: #1D2F30; /* Цвет текста */
-  margin-bottom: 16px; /* Отступ снизу заголовка */
+  font-size: 24px;
+  font-weight: bold;
+  color: #1D2F30;
+  margin-bottom: 16px;
 }
 
 
 .inner-block-2 p {
   font-size: 16px;
   color: #1D2F30;
-  margin-bottom: 16px; /* Отступ снизу абзаца */
+  margin-bottom: 16px;
 }
 
 .inner-block-2 .button {
