@@ -1,0 +1,403 @@
+<style>
+
+
+
+@media (max-width: 768px) {
+    body {
+      width: 768px;
+      height: 2470px;
+      background-color: #1D2F30;
+      margin: 0 auto;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+}
+
+.top-bar {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D2F30;
+  color: #FFFFFF;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Центрируем элементы меню по горизонтали */
+  padding: 0; /* Убираем стандартный отступ у списка */
+  margin: 0; /* Убираем стандартный отступ у списка */
+  width: 100%;
+  gap: 100px; /* Расстояние между пунктами меню */
+}
+
+nav ul li {
+  display: flex; /* Включаем flexbox для элементов списка, чтобы правильно выровнять ссылки */
+  justify-content: center; /* Центрируем содержимое элементов списка по горизонтали */
+  align-items: center; /* Центрируем содержимое элементов списка по вертикали */
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px; /* Может быть настроено для изменения высоты строки, если необходимо */
+  text-align: center; /* Гарантирует, что текст ссылки выровнен по центру */
+  padding: 10px 20px; /* Добавляем небольшой отступ вокруг текста для улучшения визуализации и кликабельности */
+}
+
+.search, .login {
+  font-size: 24px;
+  cursor: pointer;
+   margin-right: 20px;
+}
+
+.shade {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 210px;
+}
+
+.shade h1 {
+  width: 688px;
+  font-family: 'Cormorant', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.shade p {
+  width: 635px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.shade img {
+  height: 1000;
+  opacity: 0.7;
+  filter: brightness(60%);
+  background-size: cover;
+  left:0px;
+}
+
+.main-block {
+  width: 1110px;
+  height: 555px;
+  position: absolute;
+  top: 690px;
+  left: 190px;
+  display: flex;
+  background-color: #1D2F30;
+  border: 1px;
+}
+
+.sub-block {
+  width: 255px;
+  height: 493px;
+  margin: 0 10px;
+  background-color: #1D2F30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+
+.photo {
+  width: 215px; /* Ширина меньше на 40px чтобы учесть padding */
+  height: 180px;
+  background-color: #0B1919; /* Темно-синий цвет фона для блока с фотографией */
+  margin-bottom: 20px; /* Отступ снизу для следующего содержимого внутри .sub-block */
+  display: flex; /* Для выравнивания содержимого */
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center; /* Центрирование содержимого по вертикали */
+}
+
+.photo img {
+  max-width: 100%; /* Чтобы изображение не выходило за рамки .photo */
+  max-height: 100%; /* Чтобы изображение не выходило за рамки .photo */
+  margin-top: 20px; /* Отодвигаем фото чуть ниже внутри .photo */
+}
+
+.sub-block h3 {
+  font-size: 20px; /* Размер шрифта заголовка */
+  margin-bottom: 10px; /* Отступ снизу от заголовка */
+}
+
+.sub-block p {
+  font-size: 14px; /* Размер шрифта описания */
+  margin-bottom: 20px; /* Отступ снизу от описания */
+}
+
+.button {
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  border: 1px solid #BAE249; /* Желтая рамка кнопки */
+  color: #BAE249; /* Желтый цвет текста кнопки */
+  text-transform: uppercase; /* Все буквы заглавные */
+  font-weight: bold; /* Жирный шрифт */
+  text-align: center; /* Выравнивание текста по центру */
+  cursor: pointer; /* Курсор в виде указателя */
+  margin-top: auto; /* Автоматический отступ сверху, чтобы прижать кнопку к низу */
+}
+
+  .navigation {
+  width: 161px;
+  height: 36px;
+  position: absolute;
+  top: 530px;
+  left: 475px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-arrow {
+  cursor: pointer;
+  font-size: 36px; /* Увеличиваем размер стрелок */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-arrow.left {
+  flex: 0;
+}
+
+.nav-counter {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-arrow.right {
+  flex: 0;
+}
+
+.new-main-block {
+  width: 1110px;
+  height: 571px;
+  position: absolute;
+  top: 1280px;
+  left: 165px;
+  background-color: #1D2F30;
+}
+
+.new-block-title {
+  width: 355px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  font-size: 24px; /* Размер шрифта может быть изменен по вашему усмотрению */
+}
+
+.inner-block-1 {
+  width: 825px;
+  height: 493px;
+  position: absolute;
+  top: 78px; /* 1300 - 1222 (так как позиционирование относительно new-main-block) */
+  left: 0;
+  background-color: #0B1919;
+}
+
+.inner-block-2 {
+  width: 255px;
+  height: 493px;
+  position: absolute;
+  top: 78px; /* Отступ от верхнего края родительского блока */
+  left: 855px; /* Отступ от левого края родительского блока */
+  background-color: #BAE249;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Распределяем содержимое по вертикали */
+  padding: 20px; /* Внутренний отступ со всех сторон */
+  box-sizing: border-box; /* Учитываем padding и border в общую ширину и высоту */
+}
+
+.inner-block-2 h2 {
+  font-size: 24px; /* Размер шрифта заголовка */
+  font-weight: bold; /* Жирность шрифта */
+  color: #1D2F30; /* Цвет текста */
+  margin-bottom: 16px; /* Отступ снизу заголовка */
+}
+
+
+.inner-block-2 p {
+  font-size: 16px;
+  color: #1D2F30;
+  margin-bottom: 16px; /* Отступ снизу абзаца */
+}
+
+.inner-block-2 .button {
+  align-self: start;
+  margin-top: auto;
+}
+
+.photo-1 {
+  width: 100px;
+  height: 115px;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+
+}
+
+.photo-2 {
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: 15px;
+  left: 165px;
+
+}
+
+.photo-3 {
+  width: 423px;
+  height: 150px;
+  position: absolute;
+  top: 15px;
+  left: 386px;
+
+}
+
+.photo-4 {
+  width: 306px;
+  height: 293px;
+  position: absolute;
+  top: 183px;
+  left: 5px;
+}
+
+.photo-5 {
+  width: 153px;
+  height: 293px;
+  position: absolute;
+  top: 183px;
+  left: 310px;
+
+}
+
+.photo-6 {
+  width: 157px;
+  height: 293px;
+  position: absolute;
+  top: 183px;
+  left: 500px;
+
+}
+
+.photo-7 {
+  width: 119px;
+  height: 293px;
+  position: absolute;
+  top: 183px;
+  left: 690px;
+
+}
+
+  .contact-section {
+  height: 550px;
+  position: absolute;
+  top: 1900px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px 165px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.contact-section img {
+  height: 1000px;
+  opacity: 0.7;
+  filter: brightness(60%);
+  background-size: cover;
+}
+
+.section-title {
+  font-family: Cormorant;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.section-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 350px;
+  height: 45px;
+  padding: 0 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit-button {
+  width: 145px;
+  height: 40px;
+  background: #BAE249;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 79px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #0B1919;
+  left:0px;
+  top:2370px;
+}
+
+.footer-content {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    margin: 0 auto;
+}
+
+</style>
