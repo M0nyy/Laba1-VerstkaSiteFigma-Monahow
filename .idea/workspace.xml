@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade4a92f-4c7b-4a01-9c8a-42e5e465511f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/VerstkaSite-Monahow112m.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer_fone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="ade4a92f-4c7b-4a01-9c8a-42e5e465511f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
