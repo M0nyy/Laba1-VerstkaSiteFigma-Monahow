@@ -27,6 +27,22 @@
 
 }
 
+.top-bar-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+}
+
+.logout-icon {
+  left: 1350px;
+}
+
+.search-icon {
+  left: 1250px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
